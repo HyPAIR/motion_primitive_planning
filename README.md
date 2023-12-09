@@ -43,7 +43,7 @@ $ catkin_make
 2. Launch the node to compute the optimal trajectory:
 
     ```shell
-    $ roslaunch motion_primitive_planning compute_optimal_traj.launch
+    roslaunch motion_primitive_planning compute_optimal_traj.launch
     ```
 3. Launch the node to visulize the trajectory in simulation:
 
