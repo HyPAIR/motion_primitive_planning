@@ -1,0 +1,17 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "ROS: Launch",
+            "request": "launch",
+            "target": "/home/weijian/motion_primitive_planner/src/motion_primitive_planner/launch/sarah_simulation/compute_optimal_traj.launch",
+            // "target": "/home/weijian/Heterogeneous_formation/src/liom_local_planner/launch/sarah_simulation/sara_traj_tracking.launch",
+            "type": "ros",
+        }
+    ]
+
+}

@@ -1,0 +1,4 @@
+<library path="lib/motion_primitive_planner">
+    <class name ="formation_planning/LiomLocalPlannerROS" type="formation_planning::LiomLocalPlannerROS" base_class_type= "nav_core::BaseLocalPlanner">
+    </class>
+</library>

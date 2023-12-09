@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="motion_primitive_planner" type="visualize_real" name="visualize_real" output="screen"/>   
+</launch>
