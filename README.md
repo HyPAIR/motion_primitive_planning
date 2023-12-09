@@ -11,15 +11,15 @@ A ROS package for simulation. Given a graph and traversal order, and a set of mo
 1. Create a new workspace:
 
 ```shell
-$ mkdir -p ~/motion_primitive_planning/src
-$ cd ~/motion_primitive_planning/src
-$ catkin_init_workspace
+mkdir -p ~/motion_primitive_planning/src
+cd ~/motion_primitive_planning/src
+catkin_init_workspace
 ```
 
 2. Clone the package into the workspace:
 
 ```shell
-$ git clone https://github.com/HyPAIR/motion_primitive_planning.git
+git clone https://github.com/HyPAIR/motion_primitive_planning.git
 ```
 
 3. Install dependencies:
@@ -30,8 +30,8 @@ rosdep install motion_primitive_planning
 3. Build the workspace:
 
 ```shell
-$ cd ~/motion_primitive_planning
-$ catkin_make
+cd ~/motion_primitive_planning
+catkin_make
 ```
 
 ## Usage
