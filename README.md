@@ -38,7 +38,7 @@ $ catkin_make
 
 ## Usage
 
-1. Save the data.json file to ~/motion_primitive_planning/src/motion_primitive_planning/data/
+1. Save the ```data.json``` file to ```~/motion_primitive_planning/src/motion_primitive_planning/data/```.
 
 2. Launch the node to compute the optimal trajectory:
 
