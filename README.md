@@ -59,13 +59,13 @@ $ catkin_make
    roslaunch mir_examples single_mir_100.launch 
     ```
     
-Launch the node to visualize the map
+5. Launch the node to visualize the map
 
     ```shell
    roslaunch motion_primitive_planning visualize_real.launch 
     ```
     
-Launch the node to let the robot track the given trajectory
+6. Launch the node to let the robot track the given trajectory
 
     ```shell
    roslaunch motion_primitive_planning sarah_traj_tracking.launch 
