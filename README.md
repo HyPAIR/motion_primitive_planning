@@ -1,4 +1,8 @@
 # Motion Primitives Planning Package
+Given a graph and traversal order, and a set of motion primitives, compute the optimal trajectory satisfying the kinematic constraints and visualized in gazebo and rviz.
+
+## Description
+A ROS package for 
 
 ## Requirements
 
