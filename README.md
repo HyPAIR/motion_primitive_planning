@@ -32,6 +32,7 @@ rosdep install motion_primitive_planning
 ```shell
 cd ~/motion_primitive_planning
 catkin_make
+source devel/setup.bash
 ```
 
 ## Usage
