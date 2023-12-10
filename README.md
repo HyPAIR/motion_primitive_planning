@@ -36,7 +36,6 @@ source devel/setup.bash
 ```
 
 ## Usage
-# Forward kinematics
 1. Save the ```data.json``` file to ```~/motion_primitive_planning/src/motion_primitive_planning/data/```.
 
 2. Launch the node to compute the optimal trajectory:
@@ -52,7 +51,6 @@ source devel/setup.bash
     
 ![fk](https://github.com/HyPAIR/motion_primitive_planning/blob/main/figure/real_robot_sim.png)
 
-# Inverse kinematics
 1. Launch the node to visulize the robot in gazebo and rviz:
 
     ```shell
