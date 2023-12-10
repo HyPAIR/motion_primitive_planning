@@ -36,7 +36,7 @@ source devel/setup.bash
 ```
 
 ## Usage
-
+# Forward kinematics
 1. Save the ```data.json``` file to ```~/motion_primitive_planning/src/motion_primitive_planning/data/```.
 
 2. Launch the node to compute the optimal trajectory:
@@ -52,19 +52,20 @@ source devel/setup.bash
     
 ![kf_traj](https://github.com/HyPAIR/Advanced-Robotics-Assignment/blob/main/figure/fk.gif)
 
-4. Launch the node to visulize the robot in gazebo and rviz:
+# Inverse kinematics
+1. Launch the node to visulize the robot in gazebo and rviz:
 
     ```shell
    roslaunch mir_examples single_mir_100.launch 
     ```
     
-5. Launch the node to visualize the map
+2. Launch the node to visualize the map
 
     ```shell
    roslaunch motion_primitive_planning visualize_real.launch 
     ```
     
-6. Launch the node to let the robot track the given trajectory
+3. Launch the node to let the robot track the given trajectory
 
     ```shell
    roslaunch motion_primitive_planning sarah_traj_tracking.launch 
