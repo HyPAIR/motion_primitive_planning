@@ -50,7 +50,7 @@ source devel/setup.bash
    roslaunch motion_primitive_planning visualize.launch
     ```
     
-![kf_traj](https://github.com/HyPAIR/motion_primitive_planning/blob/main/figure/kf_trajectory.png)
+![kf_traj](https://github.com/HyPAIR/Advanced-Robotics-Assignment/blob/main/figure/fk.gif)
 
 4. Launch the node to visulize the robot in gazebo and rviz:
 
@@ -69,4 +69,4 @@ source devel/setup.bash
     ```shell
    roslaunch motion_primitive_planning sarah_traj_tracking.launch 
     ```
-![real_robot_sim](https://github.com/HyPAIR/motion_primitive_planning/blob/main/figure/real_robot_sim.png)
+![ik](https://github.com/HyPAIR/Advanced-Robotics-Assignment/blob/main/figure/ik.gif)
