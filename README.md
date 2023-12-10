@@ -22,20 +22,24 @@ catkin_init_workspace
 git clone https://github.com/HyPAIR/motion_primitive_planning.git
 ```
 
-3. Install dependencies:
-```shell
-rosdep install motion_primitive_planner
-```
-
 3. Build the workspace:
-
 ```shell
-cd ~/motion_primitive_planning
+cd ..
 catkin_make
 source devel/setup.bash
 ```
 
+4. If fail to build the workspace, install dependencies:
+
+```shell
+cd src/motion_primitive_planning
+rosdep install motion_primitive_planner
+cd ../..
+```
+Then, back to step3 and try again.
+
 ## Usage
+# Compute the optimal trajectory.
 1. Save the ```data.json``` file to ```~/motion_primitive_planning/src/motion_primitive_planning/data/```.
 
 2. Launch the node to compute the optimal trajectory:
@@ -51,6 +55,7 @@ source devel/setup.bash
     
 ![kf_trajectory](https://github.com/HyPAIR/motion_primitive_planning/blob/main/figure/kf_trajectory.png)
 
+# Test the real robot in rviz and gazebo.
 1. Launch the node to visulize the robot in gazebo and rviz:
 
     ```shell
