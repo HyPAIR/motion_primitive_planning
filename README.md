@@ -49,7 +49,7 @@ source devel/setup.bash
    roslaunch motion_primitive_planning visualize.launch
     ```
     
-![fk](https://github.com/HyPAIR/motion_primitive_planning/blob/main/figure/real_robot_sim.png)
+![kf_trajectory](https://github.com/HyPAIR/motion_primitive_planning/blob/main/figure/kf_trajectory.png)
 
 1. Launch the node to visulize the robot in gazebo and rviz:
 
