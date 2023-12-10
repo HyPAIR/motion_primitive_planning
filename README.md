@@ -24,7 +24,7 @@ git clone https://github.com/HyPAIR/motion_primitive_planning.git
 
 3. Install dependencies:
 ```shell
-rosdep install motion_primitive_planning
+rosdep install motion_primitive_planner
 ```
 
 3. Build the workspace:
