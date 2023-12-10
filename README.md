@@ -39,7 +39,7 @@ cd ../..
 Then, back to step3 and try again.
 
 ## Usage
-### Compute the optimal trajectory.
+### Compute the optimal trajectory
 1. Save the ```data.json``` file to ```~/motion_primitive_planning/src/motion_primitive_planning/data/```.
 
 2. Launch the node to compute the optimal trajectory:
@@ -55,7 +55,7 @@ Then, back to step3 and try again.
     
 ![kf_trajectory](https://github.com/HyPAIR/motion_primitive_planning/blob/main/figure/kf_trajectory.png)
 
-### Test the real robot in rviz and gazebo.
+### Test the real robot in rviz and gazebo
 1. Launch the node to visulize the robot in gazebo and rviz:
 
     ```shell
