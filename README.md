@@ -34,7 +34,7 @@ source devel/setup.bash
 ```shell
 cd src/motion_primitive_planning
 rosdep install motion_primitive_planner
-cd ../..
+cd ..
 ```
 Then, back to step3 and try again.
 
