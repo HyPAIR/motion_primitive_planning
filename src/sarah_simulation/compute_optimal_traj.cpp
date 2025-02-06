@@ -585,7 +585,7 @@ int main(int argc, char* argv[]) {
         config_->opti_w_a = 0.1;
         infeasibility = inf;
         FullStates solution;
-        while (infeasibility > 1e-5) {
+        while (infeasibility > 0.1) {
           // planner_->Plan_car_like_replan(ref_traj_set[i], solution, solution, 1, infeasibility);
           ref_traj_set[i].states[0].v = 0;
           ref_traj_set[i].states[0].a = 0;
