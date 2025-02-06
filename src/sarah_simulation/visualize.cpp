@@ -311,9 +311,15 @@ int main(int argc, char* argv[]) {
     std::vector<int> obs_ind;
     std::vector<bool> is_straight;
     obs_ind.resize(complete_path_.size(), 0);
-    traj_all = generate_traj("data/sarah_traj.yaml");
-    readtime_count(time_set, "data/sarah_time.yaml");
+    traj_all = generate_traj("/home/weijian/motion_primitive_planner/src/motion_primitive_planner/data/sarah_traj.yaml");
+    readtime_count(time_set, "/home/weijian/motion_primitive_planner/src/motion_primitive_planner/data/sarah_time.yaml");
     traj_all_set.resize(time_set.size());
+    int index = 0;
+    for (int i = 0; i < time_set.size(); i++) {
+      for (int j = 0; j < time_set[i]; j++) {
+        traj_all_set[i].push_back(traj_all[index++]);
+      }
+    }
     is_straight.resize(time_set.size(), false);
     std::vector<FullStates> solution_all;
     solution_all.resize(time_set.size());
